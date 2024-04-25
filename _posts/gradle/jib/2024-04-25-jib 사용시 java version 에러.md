@@ -36,9 +36,8 @@ jib {
 ## 문제 1 : docker image name with UPPER CASE
 하지만 다음과 같은 에러가 발생했습니다.
 ![image](https://github.com/kSideProject/kSideProject.github.io/assets/67232422/d25aa8cd-d469-4e01-8cf8-1050feb4712d)
-https://docs.docker.com/reference/cli/docker/image/tag/#extended-description
 
-위의 문서를 참고해서 말하자면 원인은 이미지 이름으로 대문자를 사용했기 때문이었습니다.
+다음 [문서](https://docs.docker.com/reference/cli/docker/image/tag/#extended-description)를 참고해서 말하자면 원인은 이미지 이름으로 대문자를 사용했기 때문이었습니다.
 > The path consists of slash-separated components. Each component may contain lowercase letters, digits and separators
 
 에러 메시지에서 역시 대문자를 사용해서 실패했음을 알려주었기 때문에 `authApplication`을 `auth-application`으로 수정하게 되었습니다.
@@ -78,4 +77,4 @@ jib {
 ```
 
 ## 참고자료
-jib를 통한 java 이미지 생성 : https://cloud.google.com/java/getting-started/jib
+[jib를 통한 java 이미지 생성](https://cloud.google.com/java/getting-started/jib)
