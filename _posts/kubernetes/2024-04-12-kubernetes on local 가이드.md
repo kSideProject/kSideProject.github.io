@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "kubernetes on local 가이드"
-date:   2024-04-23 19:41:06 +0900
+date:   2024-04-12 19:41:06 +0900
 categories: guide, kubernetes
 ---
 
