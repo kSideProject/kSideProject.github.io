@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "블로그 사용법"
+title:  "kubernetes on local 가이드"
 date:   2024-04-23 19:41:06 +0900
 categories: guide, kubernetes
 ---
