@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "블로그 사용법"
+title:  "배포방법"
 date:   2024-04-23 22:28:06 +0900
 categories: guide 
 ---
